@@ -1,0 +1,85 @@
+@media only screen and (max-width: 600px){
+
+    * {
+        padding : 0;
+        margin : 0;
+        box-sizing: border-box;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        /* font-family: "Open Sans"; */
+        
+      }
+    
+      body{
+        width: 100%;
+        margin: 0%;
+        display: block;
+        background: linear-gradient( to right, #ffff00, #00ffff);
+      }
+
+      h1{
+        text-align: center;
+        font-size: 1.5em;
+    
+      }
+
+      .hexinput{
+        display: block;
+        width: 50%;
+        margin: auto;
+        padding: 20px;
+      }
+
+
+      .bu2n{
+        display: block;
+        width: 50%;
+        margin: auto;
+        padding: 20px;
+      }
+
+
+      .DisplayResults{
+        width: 100%;
+        margin-top: 30px;
+        display: none;
+      }
+
+
+
+      #ShowRGB{
+        width: 50%;
+        text-align: center;
+        padding: 20px;
+        margin: auto;
+        font-size: 15px;
+        border: 1px solid  black;
+      }
+
+      .DisplayResults{
+        width: 100%;
+        margin-top: 50px;
+        display: none;
+      }
+
+
+
+      #ShowRGB, #ShowColor{
+        width: 50%;
+        text-align: center;
+        padding: 20px;
+        margin: auto;
+        font-size: 15px;
+        display: none;
+        border: 1px solid  black;
+      }
+
+      #h1, #h2{
+        display: none;
+        width: 50%;
+        margin: auto;
+        border: 1px solid  black;
+      }
+
+
+    }
+    
